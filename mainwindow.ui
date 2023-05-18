@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>2560</width>
+     <height>1600</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>Login/ Register</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="username"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QPushButton" name="register_2">
+             <property name="text">
+              <string>Register</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Username</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Password</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="password_c">
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="login">
+             <property name="text">
+              <string>Login</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registeraccount">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Last Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>First Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="last_name"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="first_name"/>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="password_confirm">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>Confirm Password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="Username"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="password1">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="empl_ID"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>Password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QPushButton" name="next_button">
+          <property name="text">
+           <string>Next</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>Username</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>EMPL ID</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="build_schedule">
+       <property name="maximumSize">
+        <size>
+         <width>2560</width>
+         <height>1600</height>
+        </size>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>2560</width>
+            <height>1600</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>GroupBox</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Name   </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Monday</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="4">
+            <widget class="QTimeEdit" name="thursday_to">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="tuesday_name"/>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="wednesday_name"/>
+           </item>
+           <item row="6" column="3" colspan="3">
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>Finish Scheduling</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Friday</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="5">
+            <widget class="QTimeEdit" name="friday_from">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="5">
+            <widget class="QPushButton" name="friday_add">
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="5">
+            <widget class="QTimeEdit" name="friday_to">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="monday_add">
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>From</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="5">
+            <widget class="QLineEdit" name="friday_name"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QTimeEdit" name="monday_to">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="4">
+            <widget class="QPushButton" name="thursday_add">
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QPushButton" name="tuesday_add">
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QTimeEdit" name="tuesday_to">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QLineEdit" name="thursday_name"/>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Tuesday</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" colspan="6">
+            <widget class="QTextBrowser" name="schedule_display">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0);
+font: 18pt &quot;Arial&quot;;</string>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QTimeEdit" name="monday_from">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Wednesday</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>To</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="4">
+            <widget class="QTimeEdit" name="thursday_from">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QTimeEdit" name="tuesday_from">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="monday_name">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QTimeEdit" name="wednesday_to">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QTimeEdit" name="wednesday_from">
+             <property name="styleSheet">
+              <string notr="true">color:rgb(255, 251, 0)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QPushButton" name="wednesday_add">
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Thursday</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <property name="maximumSize">
+        <size>
+         <width>2560</width>
+         <height>1600</height>
+        </size>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="12" column="2">
+         <widget class="QTextBrowser" name="tue_7pm"/>
+        </item>
+        <item row="10" column="4">
+         <widget class="QTextBrowser" name="thu_5pm"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_26">
+          <property name="text">
+           <string>8:00AM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QTextBrowser" name="mon_6pm"/>
+        </item>
+        <item row="3" column="3">
+         <widget class="QTextBrowser" name="wed_10am"/>
+        </item>
+        <item row="10" column="2">
+         <widget class="QTextBrowser" name="tue_5pm"/>
+        </item>
+        <item row="4" column="3">
+         <widget class="QTextBrowser" name="wed_11am"/>
+        </item>
+        <item row="9" column="3">
+         <widget class="QTextBrowser" name="wed_4pm"/>
+        </item>
+        <item row="11" column="2">
+         <widget class="QTextBrowser" name="tue_6pm"/>
+        </item>
+        <item row="12" column="4">
+         <widget class="QTextBrowser" name="thu_7pm"/>
+        </item>
+        <item row="6" column="1">
+         <widget class="QTextBrowser" name="mon_1pm"/>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="label_36">
+          <property name="text">
+           <string>6:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="0">
+         <widget class="QLabel" name="label_39">
+          <property name="text">
+           <string>9:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="4">
+         <widget class="QTextBrowser" name="thu_1pm"/>
+        </item>
+        <item row="3" column="4">
+         <widget class="QTextBrowser" name="thu_10am"/>
+        </item>
+        <item row="15" column="3">
+         <widget class="QTextBrowser" name="wed_9pm"/>
+        </item>
+        <item row="2" column="3">
+         <widget class="QTextBrowser" name="wed_9am"/>
+        </item>
+        <item row="6" column="5">
+         <widget class="QTextBrowser" name="fri_1pm"/>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_33">
+          <property name="text">
+           <string>3:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="5">
+         <widget class="QTextBrowser" name="fri_2pm"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_29">
+          <property name="text">
+           <string>11:00AM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="4">
+         <widget class="QTextBrowser" name="thu_3pm"/>
+        </item>
+        <item row="11" column="4">
+         <widget class="QTextBrowser" name="thu_6pm"/>
+        </item>
+        <item row="10" column="3">
+         <widget class="QTextBrowser" name="wed_5pm"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_28">
+          <property name="text">
+           <string>10:00AM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1">
+         <widget class="QTextBrowser" name="mon_9pm"/>
+        </item>
+        <item row="10" column="1">
+         <widget class="QTextBrowser" name="mon_5pm"/>
+        </item>
+        <item row="12" column="0">
+         <widget class="QLabel" name="label_37">
+          <property name="text">
+           <string>7:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QTextBrowser" name="tue_12pm"/>
+        </item>
+        <item row="12" column="5">
+         <widget class="QTextBrowser" name="fri_7pm"/>
+        </item>
+        <item row="4" column="5">
+         <widget class="QTextBrowser" name="fri_11am"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>Tuesday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="4">
+         <widget class="QTextBrowser" name="thu_4pm"/>
+        </item>
+        <item row="15" column="5">
+         <widget class="QTextBrowser" name="fri_9pm"/>
+        </item>
+        <item row="0" column="5">
+         <widget class="QLabel" name="label_23">
+          <property name="text">
+           <string>Friday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QTextBrowser" name="tue_8am"/>
+        </item>
+        <item row="13" column="3">
+         <widget class="QTextBrowser" name="wed_8pm"/>
+        </item>
+        <item row="5" column="1">
+         <widget class="QTextBrowser" name="mon_12pm"/>
+        </item>
+        <item row="6" column="3">
+         <widget class="QTextBrowser" name="wed_1pm"/>
+        </item>
+        <item row="1" column="3">
+         <widget class="QTextBrowser" name="wed_8am"/>
+        </item>
+        <item row="13" column="1">
+         <widget class="QTextBrowser" name="mon_8pm"/>
+        </item>
+        <item row="11" column="3">
+         <widget class="QTextBrowser" name="wed_6pm"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_27">
+          <property name="text">
+           <string>9:00AM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>Monday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="3">
+         <widget class="QTextBrowser" name="wed_7pm"/>
+        </item>
+        <item row="10" column="5">
+         <widget class="QTextBrowser" name="fri_5pm"/>
+        </item>
+        <item row="5" column="3">
+         <widget class="QTextBrowser" name="wed_12pm"/>
+        </item>
+        <item row="13" column="2">
+         <widget class="QTextBrowser" name="tue_8pm"/>
+        </item>
+        <item row="3" column="5">
+         <widget class="QTextBrowser" name="fri_10am"/>
+        </item>
+        <item row="2" column="5">
+         <widget class="QTextBrowser" name="fri_9am"/>
+        </item>
+        <item row="8" column="2">
+         <widget class="QTextBrowser" name="tue_3pm"/>
+        </item>
+        <item row="9" column="5">
+         <widget class="QTextBrowser" name="fri_4pm"/>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_31">
+          <property name="text">
+           <string>1:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_32">
+          <property name="text">
+           <string>2:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_30">
+          <property name="text">
+           <string>12:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="label_38">
+          <property name="text">
+           <string>8:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QTextBrowser" name="mon_11am"/>
+        </item>
+        <item row="0" column="4">
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string>Thursday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="3">
+         <widget class="QTextBrowser" name="wed_2pm"/>
+        </item>
+        <item row="1" column="4">
+         <widget class="QTextBrowser" name="thu_8am"/>
+        </item>
+        <item row="2" column="4">
+         <widget class="QTextBrowser" name="thu_9am"/>
+        </item>
+        <item row="15" column="4">
+         <widget class="QTextBrowser" name="thu_9pm"/>
+        </item>
+        <item row="13" column="5">
+         <widget class="QTextBrowser" name="fri_8pm"/>
+        </item>
+        <item row="8" column="3">
+         <widget class="QTextBrowser" name="wed_3pm"/>
+        </item>
+        <item row="5" column="5">
+         <widget class="QTextBrowser" name="fri_12pm"/>
+        </item>
+        <item row="9" column="1">
+         <widget class="QTextBrowser" name="mon_4pm"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QTextBrowser" name="mon_10am"/>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="label_34">
+          <property name="text">
+           <string>4:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QTextBrowser" name="mon_3pm"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QTextBrowser" name="mon_9am"/>
+        </item>
+        <item row="1" column="5">
+         <widget class="QTextBrowser" name="fri_8am"/>
+        </item>
+        <item row="12" column="1">
+         <widget class="QTextBrowser" name="mon_7pm"/>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLabel" name="label_35">
+          <property name="text">
+           <string>5:00PM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QTextBrowser" name="tue_1pm"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>Wednesday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="2">
+         <widget class="QTextBrowser" name="tue_9pm"/>
+        </item>
+        <item row="2" column="2">
+         <widget class="QTextBrowser" name="tue_9am"/>
+        </item>
+        <item row="13" column="4">
+         <widget class="QTextBrowser" name="thu_8pm"/>
+        </item>
+        <item row="5" column="4">
+         <widget class="QTextBrowser" name="thu_12pm"/>
+        </item>
+        <item row="8" column="5">
+         <widget class="QTextBrowser" name="fri_3pm"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextBrowser" name="mon_8am"/>
+        </item>
+        <item row="9" column="2">
+         <widget class="QTextBrowser" name="tue_4pm"/>
+        </item>
+        <item row="4" column="2">
+         <widget class="QTextBrowser" name="tue_11am"/>
+        </item>
+        <item row="7" column="4">
+         <widget class="QTextBrowser" name="thu_2pm"/>
+        </item>
+        <item row="7" column="1">
+         <widget class="QTextBrowser" name="mon_2pm">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QTextBrowser" name="thu_11am"/>
+        </item>
+        <item row="3" column="2">
+         <widget class="QTextBrowser" name="tue_10am"/>
+        </item>
+        <item row="7" column="2">
+         <widget class="QTextBrowser" name="tue_2pm"/>
+        </item>
+        <item row="11" column="5">
+         <widget class="QTextBrowser" name="fri_6pm"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="get_appointment">
+          <property name="text">
+           <string>Schedule</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>621</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSchedule_Builder">
+    <property name="title">
+     <string>Schedule_Builder</string>
+    </property>
+   </widget>
+   <addaction name="menuSchedule_Builder"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
