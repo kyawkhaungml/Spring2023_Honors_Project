@@ -31,5 +31,5 @@ _(Include screenshots of the app interface here if available)_
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/yourusername/mental-health-schedule-builder.git
+   git clone [https://github.com/kyawkhaungml/Spring2023_Honors_Project.git]
    cd mental-health-schedule-builder
